@@ -1,6 +1,6 @@
 from playwright.sync_api import Playwright, sync_playwright, expect
 
-# Этот код у меня выдает ошибку почему навига когда курс создает написать не работающий код, блин.
+# Этот код у меня выдает ошибку почему нафига когда курс создает написать не работающий код, блин.
 # Ничего страшного потерпиим, терпение - твой друг aiDoni.
 def test_add_todo(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=False)
